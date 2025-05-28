@@ -1,0 +1,347 @@
+{
+	"version": "1.0.0",
+	"lastUpdated": "2025-05-22",
+	"notes": "First public release",
+	"categories": [
+		{
+			"type": "category",
+			"title": "language",
+			"description": "Programming Languages",
+			"childrenDescription": "Programming Languages: ",
+			"freeTextDetails": true,
+			"entries": [
+				{
+					"type": "category-entry",
+					"title": "language-python",
+					"description": "Python",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/python.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "language-r",
+					"description": "R",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/r.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "language-matlab",
+					"description": "Matlab",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/matlab.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "language-java",
+					"description": "Java",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/java.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "language-javascript",
+					"description": "Javascript",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/javascript.svg\"></span>"
+				}	
+			]
+		},
+		{
+			"type": "category",
+			"title": "model",
+			"description": "AI Models",
+			"childrenDescription": "AI Models: ",
+			"freeTextDetails": true,
+			"entries": [
+				{
+					"type": "category-entry",
+					"title": "model-classification",
+					"description": "Classification",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/classificacao.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "model-unsupervised",
+					"description": "Unsupervised",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/unsupervisioned.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "model-regression",
+					"description": "Regression",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/regression.png\"></span>"
+				}
+			]
+		},
+		{
+			"type": "category",
+			"title": "methods",
+			"description": "XAI Methods",
+			"childrenDescription": "XAI Methods: ",
+			"freeTextDetails": true,
+			"entries": [
+				{
+					"type": "category-entry",
+					"title": "methods-shap",
+					"description": "SHAP",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/shap_5.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "methods-lime",
+					"description": "LIME",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/lime.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "methods-ciu",
+					"description": "CIU",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/ciu.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "methods-pai",
+					"description": "PAI",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/pai.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "methods-brl",
+					"description": "BRL",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/brl.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "methods-gradcam",
+					"description": "Grad-CAM",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/gradcam.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "methods-others",
+					"description": "Others",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/ponto.png\"></span>"
+				}
+			]
+		},
+		{
+			"type": "category",
+			"title": "visualization",
+			"description": "Visualization Techniques",
+			"childrenDescription": "Visualization Techniques: ",
+			"freeTextDetails": true,
+			"entries": [
+				{
+					"type": "category-entry",
+					"title": "visualization-shapsummary",
+					"description": "SHAP Summary Plot",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/shap_5.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-shapdependence",
+					"description": "SHAP Dependence Plot",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/shap_5.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-shapexplanation",
+					"description": "SHAP Explanation Decision",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/shap_5.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-shapforce",
+					"description": "SHAP Explanation Force",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/shap_5.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-shapimportance",
+					"description": "SHAP Feature Importance",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/shap_5.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-shappixel",
+					"description": "SHAP Shap Pixel Contribution",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/shap_5.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-limesuperpixel",
+					"description": "LIME Superpixel Contributions",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/lime.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-limesegmentation",
+					"description": "LIME Segmentation Highlighting",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/lime.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-limeexplanation",
+					"description": "LIME Explanations Visualization",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/lime.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-confusion",
+					"description": "Confusion Matrix",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/cf.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-boxplot",
+					"description": "Boxplot",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/boxplot.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-curveroc",
+					"description": "Curve ROC",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/curveroc.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-accuracy",
+					"description": "Accuracy and Loss Graph",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/ac.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-residual",
+					"description": "Residuals Plots",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/residual.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-correlation",
+					"description": "Correlation Plot",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/correlation.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-heatmap",
+					"description": "Heatmap",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/heat.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-scatterplot",
+					"description": "Scatter Plot",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/scatter.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-bar",
+					"description": "Bar Graph",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/bar.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-histograms",
+					"description": "Histograms",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/histo.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-rainbow",
+					"description": "Rainbow Boxes",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/rainbow.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-tsne",
+					"description": "t-SNE",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/evaluation-visual.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-dtx",
+					"description": "Decision Three Explainer",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/tree.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-pie",
+					"description": "Pie Chart",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/pie.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-rulebase",
+					"description": "Rule-Based Visualization",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/rule.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-paiscore",
+					"description": "PAI Score",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/pai.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-flow",
+					"description": "Flow Diagram",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/flow.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-icd",
+					"description": "ICD-9 Graph",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/icd.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-timeline",
+					"description": "Timeline",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/timeline.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-ciuviz",
+					"description": "CIU Explanations Visualization",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/ciu.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-dash",
+					"description": "Interactive Dashboard",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/dash.png\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "visualization-auroc",
+					"description": "Temporal AUROC Curve",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/curve2.png\"></span>"
+				}
+
+			]
+		}
+	],
+	"freeTextCategories": [
+		{
+			"type": "free-text-category-entry",
+			"title": "language-details",
+			"parentCategoryTitle": "language",
+			"description": "Programming Languages Details"
+		},
+		{
+			"type": "free-text-category-entry",
+			"title": "model-details",
+			"parentCategoryTitle": "model",
+			"description": "Model Details"
+		},
+		{
+			"type": "free-text-category-entry",
+			"title": "methods-details",
+			"parentCategoryTitle": "methods",
+			"description": "Methods Details"
+		},
+		{
+			"type": "free-text-category-entry",
+			"title": "visualization-details",
+			"parentCategoryTitle": "visualizationn",
+			"description": "Visualization Techniques Details"
+		}
+		
+	]
+}

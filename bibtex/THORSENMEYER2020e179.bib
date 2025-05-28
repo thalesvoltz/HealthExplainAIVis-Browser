@@ -1,0 +1,23 @@
+@article{THORSENMEYER2020e179,
+title = {Dynamic and explainable machine learning prediction of mortality in patients in the intensive care unit: a retrospective study of high-frequency data in electronic patient records},
+journal = {The Lancet Digital Health},
+volume = {2},
+number = {4},
+pages = {e179-e191},
+year = {2020},
+issn = {2589-7500},
+doi = {https://doi.org/10.1016/S2589-7500(20)30018-2},
+url = {https://www.sciencedirect.com/science/article/pii/S2589750020300182},
+author = {Hans-Christian Thorsen-Meyer and Annelaura B Nielsen and Anna P Nielsen and Benjamin Skov Kaas-Hansen and Palle Toft and Jens Schierbeck and Thomas Strøm and Piotr J Chmura and Marc Heimann and Lars Dybdahl and Lasse Spangsege and Patrick Hulsen and Kirstine Belling and Søren Brunak and Anders Perner},
+abstract = {Summary
+Background
+Many mortality prediction models have been developed for patients in intensive care units (ICUs); most are based on data available at ICU admission. We investigated whether machine learning methods using analyses of time-series data improved mortality prognostication for patients in the ICU by providing real-time predictions of 90-day mortality. In addition, we examined to what extent such a dynamic model could be made interpretable by quantifying and visualising the features that drive the predictions at different timepoints.
+Methods
+Based on the Simplified Acute Physiology Score (SAPS) III variables, we trained a machine learning model on longitudinal data from patients admitted to four ICUs in the Capital Region, Denmark, between 2011 and 2016. We included all patients older than 16 years of age, with an ICU stay lasting more than 1 h, and who had a Danish civil registration number to enable 90-day follow-up. We leveraged static data and physiological time-series data from electronic health records and the Danish National Patient Registry. A recurrent neural network was trained with a temporal resolution of 1 h. The model was internally validated using the holdout method with 20% of the training dataset and externally validated using previously unseen data from a fifth hospital in Denmark. Its performance was assessed with the Matthews correlation coefficient (MCC) and area under the receiver operating characteristic curve (AUROC) as metrics, using bootstrapping with 1000 samples with replacement to construct 95% CIs. A Shapley additive explanations algorithm was applied to the prediction model to obtain explanations of the features that drive patient-specific predictions, and the contributions of each of the 44 features in the model were analysed and compared with the variables in the original SAPS III model.
+Findings
+From a dataset containing 15 615 ICU admissions of 12 616 patients, we included 14 190 admissions of 11 492 patients in our analysis. Overall, 90-day mortality was 33·1% (3802 patients). The deep learning model showed a predictive performance on the holdout testing dataset that improved over the timecourse of an ICU stay: MCC 0·29 (95% CI 0·25–0·33) and AUROC 0·73 (0·71–0·74) at admission, 0·43 (0·40–0·47) and 0·82 (0·80–0·84) after 24 h, 0·50 (0·46–0·53) and 0·85 (0·84–0·87) after 72 h, and 0·57 (0·54–0·60) and 0·88 (0·87–0·89) at the time of discharge. The model exhibited good calibration properties. These results were validated in an external validation cohort of 5827 patients with 6748 admissions: MCC 0·29 (95% CI 0·27–0·32) and AUROC 0·75 (0·73–0·76) at admission, 0·41 (0·39–0·44) and 0·80 (0·79–0·81) after 24 h, 0·46 (0·43–0·48) and 0·82 (0·81–0·83) after 72 h, and 0·47 (0·44–0·49) and 0·83 (0·82–0·84) at the time of discharge.
+Interpretation
+The prediction of 90-day mortality improved with 1-h sampling intervals during the ICU stay. The dynamic risk prediction can also be explained for an individual patient, visualising the features contributing to the prediction at any point in time. This explanation allows the clinician to determine whether there are elements in the current patient state and care that are potentially actionable, thus making the model suitable for further validation as a clinical tool.
+Funding
+Novo Nordisk Foundation and the Innovation Fund Denmark.}
+}

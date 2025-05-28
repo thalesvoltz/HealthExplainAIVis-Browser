@@ -1,0 +1,1285 @@
+{
+	"version": "1.0.1",
+	"lastUpdated": "2025-05-22",
+	"baseSchemaVersion": "1.0.0",
+	"notes": "Another entry added",
+	"entries": [
+		{
+			"id": "LAMY201942",
+			"title": "Explainable artificial intelligence for breast cancer: A visual case-based reasoning approach",
+			"year": 2019,
+			"authors": "Jean-Baptiste Lamy and Boomadevi Sekar and Gilles Guezennec and Jacques Bouaud and Brigitte Séroussi",
+			"references": [
+				"Lamy et al. \"Explainable artificial intelligence for breast cancer: A visual case-based reasoning approach. \" Artificial Intelligence in Medicine Volume 94, March 2019, Pages 42-53"
+			],
+			"urls": [
+				"https://doi.org/10.1016/j.artmed.2019.01.001"
+			],
+			"categories": [
+				"language-python",
+				"language-java",
+				"model-unsupervised",
+				"methods-others",
+				"visualization-scatterplot",
+				"visualization-rainbow"
+			],
+			"language-details": "Python",
+			"model-details": "Unsupervised",
+			"methods-details": "Others",
+			"visualization-details": "Scatter Plot, Rainbow Box"
+		},
+		{
+			"id": "VasquezMorales2019",
+			"title": "Explainable Prediction of Chronic Renal Disease in the Colombian Population Using Neural Networks and Case-Based Reasoning",
+			"year": 2019,
+			"authors": "Vasquez-Morales,  Gabriel R. and Martinez-Monterrubio,  Sergio M. and Moreno-Ger,  Pablo and Recio-Garcia,  Juan A.",
+			"references": [
+				"Vasquez-Morales et al. \"Explainable Prediction of Chronic Renal Disease in the Colombian Population Using Neural Networks and Case-Based Reasoning. \" IEEE Access, vol. 7, pp. 152900-152910, 2019"
+			],
+			"urls": [
+				"http://dx.doi.org/10.1109/ACCESS.2019.2948430"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-others",
+				"visualization-confusion",
+				"visualization-curveroc",
+				"visualization-scatterplot"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "Others",
+			"visualization-details": "Confusion Matrix, ROC Curve, Scatter Plot"
+		},
+		{
+			"id": "LI2020122",
+			"title": "A visual analytics system for multi-model comparison on clinical data predictions",
+			"year": 2020,
+			"authors": "Yiran Li and Takanori Fujiwara and Yong K. Choi and Katherine K. Kim and Kwan-Liu Ma",
+			"references": [
+				"Li et al. \"A visual analytics system for multi-model comparison on clinical data predictions. \" Visual Informatics, Volume 4, Issue 2, June 2020, Pages 122-131"
+			],
+			"urls": [
+				"https://doi.org/10.1016/j.visinf.2020.04.005"
+			],
+			"categories": [
+				"language-python",
+				"model-unsupervised",
+				"model-classification",
+				"methods-shap",
+				"visualization-residual",
+				"visualization-scatterplot",
+				"visualization-histograms",
+				"visualization-tsne"	
+			],
+			"language-details": "Python",
+			"model-details": "Classification, Unsupervised",
+			"methods-details": "SHAP",
+			"visualization-details": "Residual Plot, Scatter Plot, Histogram, t-SNE"
+		},
+		{
+			"id": "10114533510953372855",
+			"title": "Doctor XAI: an ontology-based approach to black-box sequential data classification explanations",
+			"year": 2020,
+			"authors": "Panigutti, Cecilia and Perotti, Alan and Pedreschi, Dino",
+			"references": [
+				"Panigutti et al. \"Doctor XAI: an ontology-based approach to black-box sequential data classification explanations. \" In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency (FAT* '20). Association for Computing Machinery, New York, NY, USA, 629–639."
+			],
+			"urls": [
+				"https://doi.org/10.1145/3351095.3372855"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-others",
+				"visualization-boxplot",
+				"visualization-flow",
+				"visualization-icd",
+				"visualization-timeline"	
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "Others",
+			"visualization-details": "Boxplot, Flow Chart, ICD-9 Graph, Timeline"
+		},
+		{
+			"id": "LI2020122",
+			"title": "A visual analytics system for multi-model comparison on clinical data predictions",
+			"year": 2020,
+			"authors": "Yiran Li and Takanori Fujiwara and Yong K. Choi and Katherine K. Kim and Kwan-Liu Ma",
+			"references": [
+				"Li et al. \"A visual analytics system for multi-model comparison on clinical data predictions. \" Visual Informatics, Volume 4, Issue 2, June 2020, Pages 122-131"
+			],
+			"urls": [
+				"https://doi.org/10.1016/j.visinf.2020.04.005"
+			],
+			"categories": [
+				"language-python",
+				"model-unsupervised",
+				"model-classification",
+				"methods-shap",
+				"visualization-residual",
+				"visualization-scatterplot",
+				"visualization-histograms",
+				"visualization-tsne"	
+			],
+			"language-details": "Python",
+			"model-details": "Classification, Unsupervised",
+			"methods-details": "SHAP",
+			"visualization-details": "Residual Plot, Scatter Plot, Histogram, t-SNE"
+		},
+		{
+			"id": "THORSENMEYER2020e179",
+			"title": "Dynamic and explainable machine learning prediction of mortality in patients in the intensive care unit: a retrospective study of high-frequency data in electronic patient records",
+			"year": 2020,
+			"authors": "Hans-Christian Thorsen-Meyer and Annelaura B Nielsen and Anna P Nielsen and Benjamin Skov Kaas-Hansen and Palle Toft and Jens Schierbeck and Thomas Strøm and Piotr J Chmura and Marc Heimann and Lars Dybdahl and Lasse Spangsege and Patrick Hulsen and Kirstine Belling and Søren Brunak and Anders Perner",
+			"references": [
+				"Thorsen-Meyer et al. \"Dynamic and explainable machine learning prediction of mortality in patients in the intensive care unit: a retrospective study of high-frequency data in electronic patient records. \" The Lancet Digital Health, Volume 2, Issue 4, e179 - e191"
+			],
+			"urls": [
+				"https://doi.org/10.1016/S2589-7500(20)30018-2"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-shap",
+				"visualization-shapsummary",
+				"visualization-shapimportance",
+				"visualization-heatmap",
+				"visualization-auroc"	
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Summary Plot, SHAP Feature Importance, Heatmap, Temporal AUROC Curve"
+		},
+		{
+			"id": "Yoo2020",
+			"title": "Explainable Machine Learning Approach as a Tool to Understand Factors Used to Select the Refractive Surgery Technique on the Expert Level",
+			"year": 2020,
+			"authors": "Yoo,  Tae Keun and Ryu,  Ik Hee and Choi,  Hannuy and Kim,  Jin Kuk and Lee,  In Sik and Kim,  Jung Sub and Lee,  Geunyoung and Rim,  Tyler Hyungtaek",
+			"references": [
+				"Yoo et al. \"Explainable Machine Learning Approach as a Tool to Understand Factors Used to Select the Refractive Surgery Technique on the Expert Level. \" Translational vision science & technology, v. 9, n. 2, p. 8-8, 2020"
+			],
+			"urls": [
+				"http://dx.doi.org/10.1167/tvst.9.2.8"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"model-unsupervised",
+				"methods-shap",
+				"visualization-shapsummary",
+				"visualization-shapimportance",
+				"visualization-confusion",
+				"visualization-scatterplot",
+				"visualization-pie"	
+			],
+			"language-details": "Python",
+			"model-details": "Classification, Unsupervised",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Summary Plot, SHAP Feature Importance, Confusion Matrix, Scatter Plot, Pie Chart"
+		},
+		{
+			"id": "Ibrahim2020",
+			"title": "Explainable Prediction of Acute Myocardial Infarction Using Machine Learning and Shapley Values",
+			"year": 2020,
+			"authors": "Ibrahim,  Lujain and Mesinovic,  Munib and Yang,  Kai-Wen and Eid,  Mohamad A.",
+			"references": [
+				"Ibrahim et al. \"Explainable Prediction of Acute Myocardial Infarction Using Machine Learning and Shapley Values. \" Ieee Access, v. 8, p. 210410-210417, 2020."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1109/ACCESS.2020.3040166"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"model-unsupervised",
+				"methods-shap",
+				"visualization-shapsummary",
+				"visualization-shapimportance",
+				"visualization-confusion"
+			],
+			"language-details": "Python",
+			"model-details": "Classification, Unsupervised",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Summary Plot, SHAP Feature Importance, Confusion Matrix."
+		},
+		{
+			"id": "Viton2020",
+			"title": "Heatmaps for Visual Explainability of CNN-Based Predictions for Multivariate Time Series with Application to Healthcare",
+			"year": 2020,
+			"authors": "Viton,  Fabien and Elbattah,  Mahmoud and Guerin,  Jean-Luc and Dequen,  Gilles.",
+			"references": [
+				"Viton et al. \"Heatmaps for Visual Explainability of CNN-Based Predictions for Multivariate Time Series with Application to Healthcare. \" In: 2020 IEEE International Conference on Healthcare Informatics (ICHI). IEEE, 2020. p. 1-8."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1109/ICHI48887.2020.9374393"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-others",
+				"visualization-curveroc",
+				"visualization-heatmap",
+				"visualization-bar"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "Others",
+			"visualization-details": "ROC Curve, Heatmaps, Bar Graph."
+		},
+		{
+			"id": "Peng2021",
+			"title": "An Explainable Artificial Intelligence Framework for the Deterioration Risk Prediction of Hepatitis Patients",
+			"year": 2021,
+			"authors": "Peng,  Junfeng and Zou,  Kaiqiang and Zhou,  Mi and Teng,  Yi and Zhu,  Xiongyong and Zhang,  Feifei and Xu,  Jun.",
+			"references": [
+				"Peng et al. \"An Explainable Artificial Intelligence Framework for the Deterioration Risk Prediction of Hepatitis Patients. \" Journal of medical systems, v. 45, n. 5, p. 61, 2021."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1007/s10916-021-01736-5"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"model-unsupervised",
+				"methods-shap",
+				"methods-lime",
+				"visualization-shapforce",
+				"visualization-shapimportance",
+				"visualization-limeexplanation"
+			],
+			"language-details": "Python",
+			"model-details": "Classification, Unsupervised",
+			"methods-details": "SHAP, LIME",
+			"visualization-details": "SHAP Explanation Force, SHAP Feature Importance, LIME Explanation Visualization."
+		},
+		{
+			"id": "JIANG2021106040",
+			"title": "An explainable machine learning algorithm for risk factor analysis of in-hospital mortality in sepsis survivors with ICU readmission",
+			"year": 2021,
+			"authors": "Zhengyu Jiang and Lulong Bo and Zhenhua Xu and Yubing Song and Jiafeng Wang and Pingshan Wen and Xiaojian Wan and Tao Yang and Xiaoming Deng and Jinjun Bia.",
+			"references": [
+				"Jiang et al. \"An explainable machine learning algorithm for risk factor analysis of in-hospital mortality in sepsis survivors with ICU readmission. \" Computer methods and programs in biomedicine, v. 204, p. 106040, 2021."
+			],
+			"urls": [
+				"https://doi.org/10.1016/j.cmpb.2021.106040"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-shap",
+				"visualization-shapsummary",
+				"visualization-shapdependence",
+				"visualization-curveroc",
+				"visualization-bar"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Summary Plot, SHAP Dependence Plot, Roc Curve, Bar Graph."
+		},
+		{
+			"id": "Zhang2021",
+			"title": "An explainable supervised machine learning predictor of acute kidney injury after adult deceased donor liver transplantation",
+			"year": 2021,
+			"authors": "Zhang,  Yihan and Yang,  Dong and Liu,  Zifeng and Chen,  Chaojin and Ge,  Mian and Li,  Xiang and Luo,  Tongsen and Wu,  Zhengdong and Shi,  Chenguang and Wang,  Bohan and Huang,  Xiaoshuai and Zhang,  Xiaodong and Zhou,  Shaoli and Hei,  Ziqing.",
+			"references": [
+				"Zhang et al. \"An explainable supervised machine learning predictor of acute kidney injury after adult deceased donor liver transplantation. \" Journal of translational medicine, v. 19, p. 1-15, 2021."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1186/s12967-021-02990-4"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-shap",
+				"visualization-shapsummary",
+				"visualization-shapforce"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Summary Plot, SHAP Explanation Force."
+		},
+		{
+			"id": "Ong2021",
+			"title": "Comparative Analysis of Explainable Artificial Intelligence for COVID-19 Diagnosis on CXR Image",
+			"year": 2021,
+			"authors": "Ong,  Joe Huei and Goh,  Kam Meng and Lim,  Li Li",
+			"references": [
+				"Ong et al. \"Comparative Analysis of Explainable Artificial Intelligence for COVID-19 Diagnosis on CXR Image. \" In: 2021 IEEE International Conference on Signal and Image Processing Applications (ICSIPA). IEEE, 2021. p. 185-190."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1109/ICSIPA52582.2021.9576766"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-shap",
+				"methods-lime",
+				"visualization-shappixel",
+				"visualization-limesegmentation",
+				"visualization-confusion"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "SHAP, LIME",
+			"visualization-details": "SHAP Pixel Contributions, LIME Segmentation Highlighting, Confusion Matrix."
+		},
+		{
+			"id": "QUELLEC2021102118",
+			"title": "ExplAIn: Explanatory artificial intelligence for diabetic retinopathy diagnosis",
+			"year": 2021,
+			"authors": "Gwenolé Quellec and Hassan {Al Hajj} and Mathieu Lamard and Pierre-Henri Conze and Pascale Massin and Béatrice Cochener",
+			"references": [
+				"Quellec et al. \"ExplAIn: Explanatory artificial intelligence for diabetic retinopathy diagnosis. \" Medical Image Analysis, v. 72, p. 102118, 2021."
+			],
+			"urls": [
+				"https://doi.org/10.1016/j.media.2021.102118"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-shap",
+				"visualization-shapsummary",
+				"visualization-shapdependence",
+				"visualization-confusion",
+				"visualization-curveroc",
+				"visualization-heatmap",
+				"visualization-scatterplot"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Summary Plot, SHAP Dependence Plot, Confusion Matrix, ROC Curve, Heatmap, Scatter Plot."
+		},
+		{
+			"id": "Mellem2021",
+			"title": "Explainable AI enables clinical trial patient selection to retrospectively improve treatment effects in schizophrenia",
+			"year": 2021,
+			"authors": "Mellem,  Monika S. and Kollada,  Matt and Tiller,  Jane and Lauritzen,  Thomas",
+			"references": [
+				"Mellem et al. \"Explainable AI enables clinical trial patient selection to retrospectively improve treatment effects in schizophrenia. \" BMC medical informatics and decision making, v. 21, n. 1, p. 162, 2021."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1186/s12911-021-01510-0"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"model-regression",
+				"methods-PAI",
+				"methods-BRL",
+				"visualization-confusion",
+				"visualization-boxplot",
+				"visualization-rulebase",
+				"visualization-paiscore"
+			],
+			"language-details": "Python",
+			"model-details": "Classification, Regression",
+			"methods-details": "Personalized Advantage Index (PAI), Bayesian Rule Lists (BRL)",
+			"visualization-details": "Confusion Matrix, Box Plot, Rule-Based Visualization, PAI Score."
+		},
+		{
+			"id": "Davagdorj2021",
+			"title": "Explainable Artificial Intelligence Based Framework for Non-Communicable Diseases Prediction",
+			"year": 2021,
+			"authors": "Davagdorj,  Khishigsuren and Bae,  Jang-Whan and Pham,  Van-Huy and Theera-Umpon,  Nipon and Ryu,  Keun Ho",
+			"references": [
+				"Davagdorj et al. \"Explainable Artificial Intelligence Based Framework for Non-Communicable Diseases Prediction. \" Ieee Access, v. 9, p. 123672-123688, 2021."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1109/ACCESS.2021.3110336"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"model-unsupervised",
+				"methods-shap",
+				"visualization-shapimportance",
+				"visualization-boxplot",
+				"visualization-curveroc"
+			],
+			"language-details": "Python",
+			"model-details": "Classification, Unsupervised",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Feature Importance, Boxplot, Curve Roc."
+		},
+		{
+			"id": "make3030037",
+			"title": "Explainable Artificial Intelligence for Human Decision Support System in the Medical Domain",
+			"year": 2021,
+			"authors": "Knapič, Samanta and Malhi, Avleen and Saluja, Rohit and Främling, Kary",
+			"references": [
+				"Knapic et al. \"Explainable Artificial Intelligence for Human Decision Support System in the Medical Domain. \" Machine Learning and Knowledge Extraction, v. 3, n. 3, p. 740-770, 2021."
+			],
+			"urls": [
+				"https://www.mdpi.com/2504-4990/3/3/37"
+			],
+			"categories": [
+				"language-python",
+				"language-r",
+				"model-classification",
+				"methods-shap",
+				"methods-lime",
+				"methods-ciu",
+				"visualization-shapexplanation",
+				"visualization-limeexplanation",
+				"visualization-accuracy",
+				"visualization-bar",
+				"visualization-ciuviz"
+			],
+			"language-details": "Python, R",
+			"model-details": "Classification",
+			"methods-details": "SHAP, LIME, CIU",
+			"visualization-details": "Shap Explanation Decision, LIME Explanation Decision, Accuracy and Loss Graph, Bar Graph, CIU Explanations Visualization."
+		},
+		{
+			"id": "ALVES2021104335",
+			"title": "Explaining machine learning based diagnosis of COVID-19 from routine blood tests with decision trees and criteria graphs",
+			"year": 2021,
+			"authors": "Marcos Antonio Alves and Giulia Zanon Castro and Bruno Alberto Soares Oliveira and Leonardo Augusto Ferreira and Jaime Arturo Ramírez and Rodrigo Silva and Frederico Gadelha Guimarães",
+			"references": [
+				"Alves et al. \"Explaining machine learning based diagnosis of COVID-19 from routine blood tests with decision trees and criteria graphs. \"  Computers in Biology and Medicine, v. 132, p. 104335, 2021."
+			],
+			"urls": [
+				"https://doi.org/10.1016/j.compbiomed.2021.104335"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"model-unsupervised",
+				"methods-shap",
+				"methods-lime",
+				"visualization-shapsummary",
+				"visualization-curveroc",
+				"visualization-scatterplot",
+				"visualization-dtx"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "SHAP, LIME",
+			"visualization-details": "Shap Summary Plot, ROC Curve, Scatter Plot, Decision Three Explainer (DTX)."
+		},
+		{
+			"id": "KHODABANDEHLOO2021168",
+			"title": "HealthXAI: Collaborative and explainable AI for supporting early diagnosis of cognitive decline",
+			"year": 2021,
+			"authors": "Elham Khodabandehloo and Daniele Riboni and Abbas Alimohammadi",
+			"references": [
+				"Khodabandehloo et al. \"HealthXAI: Collaborative and explainable AI for supporting early diagnosis of cognitive decline. \"  Future Generation Computer Systems, v. 116, p. 168-189, 2021."
+			],
+			"urls": [
+				"https://doi.org/10.1016/j.future.2020.10.030"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"model-regression",
+				"methods-others",
+				"visualization-heatmap",
+				"visualization-bar",
+				"visualization-scatterplot",
+				"visualization-dash"
+			],
+			"language-details": "Python",
+			"model-details": "Classification, Regression",
+			"methods-details": "Others",
+			"visualization-details": "Heatmaps, Bar Graph, Scatter Plot, Interactive Dashboards."
+		},
+		{
+			"id": "Duckworth2021",
+			"title": "Using explainable machine learning to characterise data drift and detect emergent health risks for emergency department admissions during COVID-19",
+			"year": 2021,
+			"authors": "Duckworth,  Christopher and Chmiel,  Francis P. and Burns,  Dan K. and Zlatev,  Zlatko D. and White,  Neil M. and Daniels,  Thomas W. V. and Kiuber,  Michael and Boniface,  Michael J.",
+			"references": [
+				"Duckworth et al. \"Using explainable machine learning to characterise data drift and detect emergent health risks for emergency department admissions during COVID-19. \"  Scientific reports, v. 11, n. 1, p. 23017, 2021."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1038/s41598-021-02481-y"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"model-unsupervised",
+				"methods-shap",
+				"visualization-shapsummary",
+				"visualization-shapimportance",
+				"visualization-shapforce",
+				"visualization-shappixel",
+				"visualization-confusion",
+				"visualization-curveroc",
+				"visualization-timeline"
+			],
+			"language-details": "Python",
+			"model-details": "Classification, Unsupervised",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Summary Plot, SHAP Explanation Force, SHAP Feature Importance, Confusion Matriz, ROC Curve, Timeline"
+		},
+		{
+			"id": "Chmiel2021",
+			"title": "Using explainable machine learning to identify patients at risk of reattendance at discharge from emergency departments",
+			"year": 2021,
+			"authors": "Chmiel,  F. P. and Burns,  D. K. and Azor,  M. and Borca,  F. and Boniface,  M. J. and Zlatev,  Z. D. and White,  N. M. and Daniels,  T. W. V. and Kiuber,  M.",
+			"references": [
+				"Chmiel et al. \"Using explainable machine learning to identify patients at risk of reattendance at discharge from emergency departments. \"  Scientific reports, v. 11, n. 1, p. 21513, 2021."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1038/s41598-021-00937-9"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-shap",
+				"visualization-shapsummary",
+				"visualization-confusion",
+				"visualization-curveroc",
+				"visualization-scatterplot"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Summary Plot, Confusion Matriz, ROC Curve, Scatter Plot"
+		},
+		{
+			"id": "s21217125",
+			"title": "Using Explainable Machine Learning to Improve Intensive Care Unit Alarm Systems",
+			"year": 2021,
+			"authors": "González-Nóvoa, José A. and Busto, Laura and Rodríguez-Andina, Juan J. and Fariña, José and Segura, Marta and Gómez, Vanesa and Vila, Dolores and Veiga, César",
+			"references": [
+				"Gonzalez et al. \"Using Explainable Machine Learning to Improve Intensive Care Unit Alarm Systems. \"  Sensors, v. 21, n. 21, p. 7125, 2021."
+			],
+			"urls": [
+				"https://www.mdpi.com/1424-8220/21/21/7125"
+			],
+			"categories": [
+				"language-python",
+				"model-unsupervised",
+				"methods-shap",
+				"visualization-shapdependence",
+				"visualization-shapimportance"
+			],
+			"language-details": "Python",
+			"model-details": "Unsupervised",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Dependence Plot, SHAP Feature Importance."
+		},
+		{
+			"id": "9930511",
+			"title": "A Deep Learning Approach Based on Explainable Artificial Intelligence for Skin Lesion Classification",
+			"year": 2022,
+			"authors": "Nigar, Natasha and Umar, Muhammad and Shahzad, Muhammad Kashif and Islam, Shahid and Abalo, Douhadji",
+			"references": [
+				"Nigar et al. \"A Deep Learning Approach Based on Explainable Artificial Intelligence for Skin Lesion Classification. \"  IEEE Access, v. 10, p. 113715-113725, 2022."
+			],
+			"urls": [
+				"https://ieeexplore.ieee.org/document/9930511"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-lime",
+				"visualization-limesuperpixel",
+				"visualization-confusion",
+				"visualization-accuracy"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "LIME",
+			"visualization-details": "LIME Superpixel Segmentation, Confusion Matrix, Accuracy and Loss Graph."
+		},
+		{
+			"id": "Wesoowski2022",
+			"title": "An explainable artificial intelligence approach for predicting cardiovascular outcomes using electronic health record",
+			"year": 2022,
+			"authors": "Wesołowski,  Sergiusz and Lemmon,  Gordon and Hernandez,  Edgar J. and Henrie,  Alex and Miller,  Thomas A. and Weyhrauch,  Derek and Puchalski,  Michael D. and Bray,  Bruce E. and Shah,  Rashmee U. and Deshmukh,  Vikrant G. and Delaney,  Rebecca and Yost,  H. Joseph and Eilbeck,  Karen and Tristani-Firouzi,  Martin and Yandell,  Mark",
+			"references": [
+				"Wesolowski et al. \"An explainable artificial intelligence approach for predicting cardiovascular outcomes using electronic health record. \"  PLOS digital health, v. 1, n. 1, p. e0000004, 2022."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1371/journal.pdig.0000004"
+			],
+			"categories": [
+				"language-python",
+				"language-r",
+				"language-javascript",
+				"model-unsupervised",
+				"methods-others",
+				"visualization-scatterplot",
+				"visualization-bar"
+			],
+			"language-details": "Python, R, Javascript",
+			"model-details": "Unsupervised",
+			"methods-details": "Others",
+			"visualization-details": "Scatter Plot, Bar Graph."
+		},
+		{
+			"id": "Alsinglawi2022",
+			"title": "An explainable machine learning framework for lung cancer hospital length of stay predictiond",
+			"year": 2022,
+			"authors": "Alsinglawi,  Belal and Alshari,  Osama and Alorjani,  Mohammed and Mubin,  Omar and Alnajjar,  Fady and Novoa,  Mauricio and Darwish,  Omar",
+			"references": [
+				"Alsinglawi et al. \"An explainable machine learning framework for lung cancer hospital length of stay prediction. \"  Scientific reports, v. 12, n. 1, p. 607, 2022."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1038/s41598-021-04608-7"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"model-unsupervised",
+				"methods-shap",
+				"visualization-shapimportance",
+				"visualization-confusion",
+				"visualization-bar"
+			],
+			"language-details": "Python",
+			"model-details": "Classification, Unsupervised",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Feature Importance, Confusion Matrix, Bar Graph."
+		},
+		{
+			"id": "Du2022",
+			"title": "An explainable machine learning-based clinical decision support system for prediction of gestational diabetes mellitus",
+			"year": 2022,
+			"authors": "Du,  Yuhan and Rafferty,  Anthony R. and McAuliffe,  Fionnuala M. and Wei,  Lan and Mooney,  Catherine",
+			"references": [
+				"Du et al. \"An explainable machine learning-based clinical decision support system for prediction of gestational diabetes mellitus. \"  Scientific Reports, v. 12, n. 1, p. 1170, 2022."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1038/s41598-022-05112-2"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"model-unsupervised",
+				"methods-shap",
+				"visualization-shapforce",
+				"visualization-shapimportance",
+				"visualization-correlation"
+			],
+			"language-details": "Python",
+			"model-details": "Classification, Unsupervised",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Explanation Force, SHAP Feature Importance, Correlation Plot."
+		},
+		{
+			"id": "Stenwig2022",
+			"title": "Comparative analysis of explainable machine learning prediction models for hospital mortality",
+			"year": 2022,
+			"authors": "Stenwig,  Eline and Salvi,  Giampiero and Rossi,  Pierluigi Salvo and Skjærvold,  Nils Kristian",
+			"references": [
+				"Stenwig et al. \"Comparative analysis of explainable machine learning prediction models for hospital mortality. \"  BMC Medical Research Methodology, v. 22, n. 1, p. 53, 2022."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1186/s12874-022-01540-w"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-shap",
+				"visualization-shapsummary",
+				"visualization-shapimportance",
+				"visualization-curveroc"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Summary Plot, SHAP Feature Importance, ROC Curve."
+		},
+		{
+			"id": "JOSEPH2022106178",
+			"title": "Explainable diabetes classification using hybrid Bayesian-optimized TabNet architecture",
+			"year": 2022,
+			"authors": "Lionel P. Joseph and Erica A. Joseph and Ramendra Prasad",
+			"references": [
+				"Joseph et al. \"Explainable diabetes classification using hybrid Bayesian-optimized TabNet architecture. \"  Computers in Biology and Medicine, v. 151, p. 106178, 2022."
+			],
+			"urls": [
+				"https://doi.org/10.1016/j.compbiomed.2022.106178"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"model-unsupervised",
+				"methods-shap",
+				"methods-lime",
+				"visualization-shapsummary",
+				"visualization-shapdependence",
+				"visualization-shapimportance",
+				"visualization-limeexplanation",
+				"visualization-confusion",
+				"visualization-curveroc"
+			],
+			"language-details": "Python",
+			"model-details": "Classification, Unsupervised",
+			"methods-details": "SHAP, LIME",
+			"visualization-details": "SHAP Summary Plot, SHAP Dependence Plot, SHAP Feature Importance, LIME Explanations Visualization, Confusion Matrix,  ROC Curve."
+		},
+		{
+			"id": "Kokkotis2022",
+			"title": "Explainable machine learning for knee osteoarthritis diagnosis based on a novel fuzzy feature selection methodology",
+			"year": 2022,
+			"authors": "Kokkotis,  Christos and Ntakolia,  Charis and Moustakidis,  Serafeim and Giakas,  Giannis and Tsaopoulos,  Dimitrios",
+			"references": [
+				"Kokkotis et al. \"Explainable machine learning for knee osteoarthritis diagnosis based on a novel fuzzy feature selection methodology. \"  Physical and Engineering Sciences in Medicine, v. 45, n. 1, p. 219-229, 2022."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1007/s13246-022-01106-6"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-shap",
+				"visualization-shapsummary"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Summary Plot."
+		},
+		{
+			"id": "jpm12020228",
+			"title": "Explainable Machine Learning Model for Predicting First-Time Acute Exacerbation in Patients with Chronic Obstructive Pulmonary Disease",
+			"year": 2022,
+			"authors": "Kor, Chew-Teng and Li, Yi-Rong and Lin, Pei-Ru and Lin, Sheng-Hao and Wang, Bing-Yen and Lin, Ching-Hsiung",
+			"references": [
+				"Kor et al. \"Explainable Machine Learning Model for Predicting First-Time Acute Exacerbation in Patients with Chronic Obstructive Pulmonary Disease. \"  Journal of personalized medicine, v. 12, n. 2, p. 228, 2022."
+			],
+			"urls": [
+				"https://www.mdpi.com/2075-4426/12/2/228"
+			],
+			"categories": [
+				"language-r",
+				"model-classification",
+				"model-unsupervised",
+				"methods-shap",
+				"visualization-shapsummary",
+				"visualization-boxplot",
+				"visualization-curveroc",
+				"visualization-bar"
+			],
+			"language-details": "R",
+			"model-details": "Classification, Unsupervised",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Summary Plot, Box Plot, ROC Curve, Bar Graph."
+		},
+		{
+			"id": "SHI2022202",
+			"title": "Explainable machine learning model for predicting the occurrence of postoperative malnutrition in children with congenital heart disease",
+			"year": 2022,
+			"authors": "Hui Shi and Dong Yang and Kaichen Tang and Chunmei Hu and Lijuan Li and Linfang Zhang and Ting Gong and Yanqin C",
+			"references": [
+				"Shi et al. \"Explainable machine learning model for predicting the occurrence of postoperative malnutrition in children with congenital heart disease. \"  Clinical Nutrition, v. 41, n. 1, p. 202-210, 2022."
+			],
+			"urls": [
+				"https://doi.org/10.1016/j.clnu.2021.11.006"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"model-unsupervised",
+				"methods-shap",
+				"visualization-shapsummary",
+				"visualization-shapexplanation",
+				"visualization-shapforce",
+				"visualization-curveroc"
+			],
+			"language-details": "Python",
+			"model-details": "Classification, Unsupervised",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Summary Plot, SHAP Explanation Decision, SHAP Explanation Force, ROC Curve."
+		},
+		{
+			"id": "Haque2022",
+			"title": "Interpretable machine learning predicts cardiac resynchronization therapy responses from personalized biochemical and biomechanical features",
+			"year": 2022,
+			"authors": "Haque,  Anamul and Stubbs,  Doug and Hubig,  Nina C. and Spinale,  Francis G. and Richardson,  William J.",
+			"references": [
+				"Haque et al. \"Interpretable machine learning predicts cardiac resynchronization therapy responses from personalized biochemical and biomechanical features. \"  BMC Medical Informatics and Decision Making."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1186/s12911-022-02015-0"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"model-unsupervised",
+				"methods-shap",
+				"methods-lime",
+				"visualization-shapsummary",
+				"visualization-shapforce",
+				"visualization-limeexplanation",
+				"visualization-bar",
+				"visualization-curveroc"
+			],
+			"language-details": "Python",
+			"model-details": "Classification, Unsupervised",
+			"methods-details": "SHAP, LIME",
+			"visualization-details": "SHAP Summary Plot, SHAP Explanation Force, LIME Explanaition Visualization, ROC Curve."
+		},
+		{
+			"id": "Mohanty2022",
+			"title": "Machine learning for predicting readmission risk among the frail: Explainable AI for healthcare",
+			"year": 2022,
+			"authors": "Mohanty,  Somya D. and Lekan,  Deborah and McCoy,  Thomas P. and Jenkins,  Marjorie and Manda,  Prashanti.",
+			"references": [
+				"Mohanty et al. \" Machine learning for predicting readmission risk among the frail: Explainable AI for healthcare. \"  Patterns, v. 3, n. 1, 2022."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1016/j.patter.2021.100395"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"model-unsupervised",
+				"methods-shap",
+				"visualization-shapsummary",
+				"visualization-shapdependence",
+				"visualization-shapforce",
+				"visualization-shapimportance"
+			],
+			"language-details": "Python",
+			"model-details": "Classification, Unsupervised",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Summary Plot, SHAP Dependence Plot, SHAP Explanation Force, SHAP Feature Importance."
+		},
+		{
+			"id": "Twick2022",
+			"title": "Towards interpretable,  medically grounded,  EMR-based risk prediction model",
+			"year": 2022,
+			"authors": "Twick,  Isabell and Zahavi,  Guy and Benvenisti,  Haggai and Rubinstein,  Ronya and Woods,  Michael S. and Berkenstadt,  Haim and Nissan,  Aviram and Hosgor,  Enes and Assaf,  Dan",
+			"references": [
+				"Twick et al. \" Towards interpretable,  medically grounded,  EMR-based risk prediction model. \"  Scientific reports, v. 12, n. 1, p. 9990, 2022."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1038/s41598-022-13504-7"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-shap",
+				"visualization-shapsummary",
+				"visualization-shapdependence",
+				"visualization-shapforce"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Summary Plot, SHAP Dependence Plot, SHAP Explanation Force."
+		},
+		{
+			"id": "Amoroso2023",
+			"title": "An eXplainability Artificial Intelligence approach to brain connectivity in Alzheimer’s disease",
+			"year": 2023,
+			"authors": "Amoroso,  Nicola and Quarto,  Silvano and La Rocca,  Marianna and Tangaro,  Sabina and Monaco,  Alfonso and Bellotti,  Robert",
+			"references": [
+				"Amoroso et al. \" An eXplainability Artificial Intelligence approach to brain connectivity in Alzheimer’s disease. \"  Frontiers in Aging Neuroscience, v. 15, p. 1238065, 2023."
+			],
+			"urls": [
+				"http://dx.doi.org/10.3389/fnagi.2023.1238065"
+			],
+			"categories": [
+				"language-r",
+				"model-classification",
+				"model-unsupervised",
+				"methods-shap",
+				"visualization-shapimportance",
+				"visualization-confusion",
+				"visualization-curveroc"
+			],
+			"language-details": "R",
+			"model-details": "Classification, Unsupervised",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Feature Importance, Confusion Matrix, ROC Curve."
+		},
+		{
+			"id": "NORDIN2023103316",
+			"title": "An explainable predictive model for suicide attempt risk using an ensemble learning and Shapley Additive Explanations (SHAP) approach",
+			"year": 2023,
+			"authors": "Noratikah Nordin and Zurinahni Zainol and Mohd Halim {Mohd Noor} and Lai Fong Chan",
+			"references": [
+				"Nordin et al. \" An explainable predictive model for suicide attempt risk using an ensemble learning and Shapley Additive Explanations (SHAP) approach. \"  Asian journal of psychiatry, v. 79, p. 103316, 2023."
+			],
+			"urls": [
+				"https://doi.org/10.1016/j.ajp.2022.103316"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-shap",
+				"visualization-shapsummary",
+				"visualization-shapforce"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Summary Plot, SHAP Explanation Force."
+		},
+		{
+			"id": "Attai2023",
+			"title": "Explainable AI modelling of Comorbidity in Pregnant Women and Children with Tropical Febrile Conditions",
+			"year": 2023,
+			"authors": "Attai,  Kingsley and Akwaowo,  Christie and Asuquo,  Daniel and Esubok,  Nne-eka and Nelson,  Udeme-Abasi and Dan,  Emem and Obot,  Okure and Amannah,  Constance and Uzoka,  Faith-Michael",
+			"references": [
+				"Attai et al. \" Explainable AI modelling of Comorbidity in Pregnant Women and Children with Tropical Febrile Conditions. \"  International Conference on Artificial Intelligence and its Applications. 2023. p. 152-159."
+			],
+			"urls": [
+				"http://dx.doi.org/10.59200/ICARTI.2023.022"
+			],
+			"categories": [
+				"language-python",
+				"model-unsupervised",
+				"methods-shap",
+				"visualization-shapsummary",
+				"visualization-confusion",
+				"visualization-heatmap"
+			],
+			"language-details": "Python",
+			"model-details": "Unsupervised",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Summary Plot, Confusion Matrix, Heatmap."
+		},
+		{
+			"id": "electronics12010015",
+			"title": "Explainable AI to Predict Male Fertility Using Extreme Gradient Boosting Algorithm with SMOTE",
+			"year": 2023,
+			"authors": "GhoshRoy, Debasmita and Alvi, Parvez Ahmad and Santosh, KC",
+			"references": [
+				"GhoshRo et al. \" Explainable AI to Predict Male Fertility Using Extreme Gradient Boosting Algorithm with SMOTE. \"  Electronics, v. 12, n. 1, p. 15, 2022."
+			],
+			"urls": [
+				"https://www.mdpi.com/2079-9292/12/1/15"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"model-unsupervised",
+				"methods-shap",
+				"methods-lime",
+				"visualization-shapsummary",
+				"visualization-shapimportance",
+				"visualization-shapforce",
+				"visualization-limeexplanation",
+				"visualization-heatmap"
+			],
+			"language-details": "Python",
+			"model-details": "Classification, Unsupervised",
+			"methods-details": "SHAP, LIME",
+			"visualization-details": "SHAP Summary Plot, SHAP Feature Importance, SHAP Explanation Force, LIME Explanations Visualization, Heatmap."
+		},
+		{
+			"id": "jimaging9090177",
+			"title": "Explainable Artificial Intelligence (XAI) for Deep Learning Based Medical Imaging Classification",
+			"year": 2023,
+			"authors": "Ghnemat, Rawan and Alodibat, Sawsan and Abu Al-Haija, Qasem",
+			"references": [
+				"Ghnemat et al. \" Explainable Artificial Intelligence (XAI) for Deep Learning Based Medical Imaging Classification. \"  Journal of Imaging, v. 9, n. 9, p. 177, 2023."
+			],
+			"urls": [
+				"https://www.mdpi.com/2313-433X/9/9/177"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-lime",
+				"visualization-limesuperpixel",
+				"visualization-confusion",
+				"visualization-accuracy"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "LIME",
+			"visualization-details": "LIME Superpixel Segmentation, Confusion Matrix, Accuracy and Loss Graph."
+		},
+		{
+			"id": "Noviandy2024",
+			"title": "Explainable Artificial Intelligence in Medical Imaging: A Case Study on Enhancing Lung Cancer Detection through CT Images",
+			"year": 2023,
+			"authors": "Noviandy,  Teuku Rizky and Maulana,  Aga and Zulfikar,  Teuku and Rusyana,  Asep and Enitan,  Seyi Samson and Idroes,  Rinaldi",
+			"references": [
+				"Noviandy et al. \" Explainable Artificial Intelligence in Medical Imaging: A Case Study on Enhancing Lung Cancer Detection through CT Images. \"  Indonesian Journal of Case Reports, v. 2, n. 1, p. 6-14, 2024."
+			],
+			"urls": [
+				"http://dx.doi.org/10.60084/ijcr.v2i1.150"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-gradcam",
+				"visualization-confusion",
+				"visualization-accuracy"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "Grad-CAM",
+			"visualization-details": "Grad-CAM, Confusion Matrix, Accuracy and Loss Graph."
+		},
+		{
+			"id": "metabo13121204",
+			"title": "Explainable Artificial Intelligence Paves the Way in Precision Diagnostics and Biomarker Discovery for the Subclass of Diabetic Retinopathy in Type 2 Diabetics",
+			"year": 2023,
+			"authors": "Yagin, Fatma Hilal and Yasar, Seyma and Gormez, Yasin and Yagin, Burak and Pinar, Abdulvahap and Alkhateeb, Abedalrhman and Ardigò, Luca Paolo",
+			"references": [
+				"Yagin et al. \" Explainable Artificial Intelligence Paves the Way in Precision Diagnostics and Biomarker Discovery for the Subclass of Diabetic Retinopathy in Type 2 Diabetics. \"   Metabolites, v. 13, n. 12, p. 1204, 2023."
+			],
+			"urls": [
+				"https://www.mdpi.com/2218-1989/13/12/1204"
+			],
+			"categories": [
+				"language-python",
+				"model-unsupervised",
+				"methods-others",
+				"visualization-bar"
+			],
+			"language-details": "Python",
+			"model-details": "Unsupervised",
+			"methods-details": "Others",
+			"visualization-details": "Bar Graph."
+		},
+		{
+			"id": "RAMIREZMENA2023107719",
+			"title": "Explainable artificial intelligence to predict and identify prostate cancer tissue by gene expression",
+			"year": 2023,
+			"authors": "Alberto Ramírez-Mena and Eduardo Andrés-León and Maria Jesus Alvarez-Cubero and Augusto Anguita-Ruiz and Luis Javier Martinez-Gonzalez and Jesus Alcala-Fdez",
+			"references": [
+				"Ramirez-Mena et al. \" Explainable artificial intelligence to predict and identify prostate cancer tissue by gene expression. \"   Computer Methods and Programs in Biomedicine, v. 240, p. 107719, 2023."
+			],
+			"urls": [
+				"https://doi.org/10.1016/j.cmpb.2023.107719"
+			],
+			"categories": [
+				"language-r",
+				"model-classification",
+				"methods-shap",
+				"visualization-shapsummary",
+				"visualization-shapimportance"
+			],
+			"language-details": "R",
+			"model-details": "Classification",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Summary Plot, SHAP Feature Importance."
+		},
+		{
+			"id": "8945986",
+			"title": "Explaining Machine Learning-Based Classifications of In-Vivo Gastral Image",
+			"year": 2019,
+			"authors": "Malhi, Avleen and Kampik, Timotheus and Pannu, Husanbir and Madhikermi, Manik and Främling, Kary",
+			"references": [
+				"Malhi et al. \" Explaining Machine Learning-Based Classifications of In-Vivo Gastral Image. \"   2019 Digital Image Computing: Techniques and Applications (DICTA), p. 1-7, 2019."
+			],
+			"urls": [
+				"https://ieeexplore.ieee.org/abstract/document/8945986/"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-lime",
+				"visualization-limesegmentation"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "LIME",
+			"visualization-details": "LIME Segmentation Highlighting."
+		},
+		{
+			"id": "KOTHARI2024102696",
+			"title": "An explainable AI-assisted web application in cancer drug value prediction",
+			"year": 2024,
+			"authors": "Sonali Kothari and Shivanandana Sharma and Sanskruti Shejwal and Aqsa Kazi and Michela D'Silva and M. Karthikeyan",
+			"references": [
+				"Kothari et al. \" An explainable AI-assisted web application in cancer drug value prediction. \"   MethodsX, v. 12, p. 102696, 2024."
+			],
+			"urls": [
+				"https://doi.org/10.1016/j.mex.2024.102696/"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"model-unsupervised",
+				"methods-lime",
+				"visualization-limeexplanation"
+			],
+			"language-details": "Python",
+			"model-details": "Classification, Unsupervised",
+			"methods-details": "LIME",
+			"visualization-details": "LIME Explanations Visualization."
+		},
+		{
+			"id": "Mayrose2024",
+			"title": "An Explainable Artificial Intelligence Integrated System for Automatic Detection of Dengue From Images of Blood Smears Using Transfer Learning",
+			"year": 2024,
+			"authors": "Mayrose,  Hilda and Sampathila,  Niranjana and Bairy,  G. Muralidhar and Nayak,  Tushar and Belurkar,  Sushma and Saravu,  Kavitha",
+			"references": [
+				"Mayrose et al. \" An Explainable Artificial Intelligence Integrated System for Automatic Detection of Dengue From Images of Blood Smears Using Transfer Learning. \"   IEEE Access, v. 12, p. 41750-41762, 2024."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1109/ACCESS.2024.3378516"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-gradcam",
+				"visualization-confusion",
+				"visualization-accuracy"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "Grad-CAM",
+			"visualization-details": "Grad-CAM, Confusion Matrix, Accuracy and Loss Graph."
+		},
+		{
+			"id": "fi16110411",
+			"title": "An Explainable Deep Learning-Enhanced IoMT Model for Effective Monitoring and Reduction of Maternal Mortality Risks",
+			"year": 2024,
+			"authors": "Saleh, Sherine Nagy and Elagamy, Mazen Nabil and Saleh, Yasmine N. M. and Osman, Radwa Ahmed",
+			"references": [
+				"Saleh et al. \" An Explainable Deep Learning-Enhanced IoMT Model for Effective Monitoring and Reduction of Maternal Mortality Risks. \"   Future Internet, v. 16, n. 11, p. 411, 2024."
+			],
+			"urls": [
+				"https://www.mdpi.com/1999-5903/16/11/411"
+			],
+			"categories": [
+				"language-python",
+				"language-matlab",
+				"model-classification",
+				"methods-shap",
+				"methods-lime",
+				"visualization-shapsummary",
+				"visualization-limesuperpixel",
+				"visualization-limeexplanation",
+				"visualization-boxplot",
+				"visualization-curveroc"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "SHAP, LIME",
+			"visualization-details": "SHAP Summary Plot, LIME Superpixel Segmentation, LIME Explanation Visualization, Box Plot, Curve ROC."
+		},
+		{
+			"id": "10551183",
+			"title": "Examining the Influence of Explainable Artificial Intelligence on Healthcare Diagnosis and Decision Making",
+			"year": 2024,
+			"authors": "Jain, Vijal and Dhruv, Ajay",
+			"references": [
+				"Jain et al. \" Examining the Influence of Explainable Artificial Intelligence on Healthcare Diagnosis and Decision Making. \"    2024 2nd International Conference on Advancement in Computation & Computer Technologies (InCACCT). IEEE, 2024. p. 136-141."
+			],
+			"urls": [
+				"https://ieeexplore.ieee.org/abstract/document/10551183"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-shap",
+				"methods-lime",
+				"visualization-shapforce",
+				"visualization-limeexplanation"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "SHAP, LIME",
+			"visualization-details": "SHAP Feature Force, LIME Explanation Visualization."
+		},
+		{
+			"id": "Binzagr2024",
+			"title": "Explainable AI-driven model for gastrointestinal cancer classification",
+			"year": 2024,
+			"authors": "Binzagr,  Faisal",
+			"references": [
+				"Binzagr. \" Explainable AI-driven model for gastrointestinal cancer classification. \"     Frontiers in Medicine, v. 11, p. 1349373, 2024."
+			],
+			"urls": [
+				"ttp://dx.doi.org/10.3389/fmed.2024.1349373"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-shap",
+				"visualization-shapexplanation",
+				"visualization-confusion",
+				"visualization-tsne"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Explanation Decision, Confusion matrix, t-SNE."
+		},
+		{
+			"id": "Ashry2024",
+			"title": "Pediatric Posterior Fossa Tumors Classification and Explanation-Driven with Explainable Artificial Intelligence Models",
+			"year": 2024,
+			"authors": "Ashry,  Eman Ragab and Maghraby,  Fahima A. and El-Latif,  Yasser M. Abd and Agag,  Mohamed",
+			"references": [
+				"Ashry et al. \" Pediatric Posterior Fossa Tumors Classification and Explanation-Driven with Explainable Artificial Intelligence Models. \"     International Journal of Computational Intelligence Systems, v. 17, n. 1, p. 166, 2024."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1007/s44196-024-00527-3"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-shap",
+				"visualization-shapexplanation",
+				"visualization-limesuperpixel",
+				"visualization-confusion"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Explanation Decision, LIME Superpixel Segmentation, Confusion matrix."
+		},
+		{
+			"id": "RASOULI2024105614",
+			"title": "Predicting the conversion from clinically isolated syndrome to multiple sclerosis: An explainable machine learning approach",
+			"year": 2024,
+			"authors": "Saeid Rasouli and Mohammad Sedigh Dakkali and Reza Azarbad and Azim Ghazvini and Mahdi Asani and Zahra Mirzaasgari and Mohammed Arish",
+			"references": [
+				"Rasouli et al. \" Predicting the conversion from clinically isolated syndrome to multiple sclerosis: An explainable machine learning approach. \"     Multiple Sclerosis and Related Disorders, v. 86, p. 105614, 2024."
+			],
+			"urls": [
+				"https://doi.org/10.1016/j.msard.2024.105614"
+			],
+			"categories": [
+				"language-python",
+				"model-unsupervised",
+				"methods-shap",
+				"visualization-shapforce",
+				"visualization-shapimportance",
+				"visualization-confusion",
+				"visualization-heatmap"
+			],
+			"language-details": "Python",
+			"model-details": "Unsupervised",
+			"methods-details": "SHAP",
+			"visualization-details": "SHAP Explanation Force, SHAP Feature Importance, Confusion Matrix, Heatmap."
+		},
+		{
+			"id": "Brusini2024",
+			"title": "XAI-Based Assessment of the AMURA Model for Detecting Amyloid-β and Tau Microstructural Signatures in Alzheimer’s Disease",
+			"year": 2024,
+			"authors": "Brusini,  Lorenza and Cruciani,  Federica and Dall’Aglio,  Gabriele and Zajac,  Tommaso and Boscolo Galazzo,  Ilaria and Zucchelli,  Mauro and Menegaz,  Gloria",
+			"references": [
+				"Brusini et al. \" XAI-Based Assessment of the AMURA Model for Detecting Amyloid-β and Tau Microstructural Signatures in Alzheimer’s Disease. \"      IEEE Journal of Translational Engineering in Health and Medicine, 2024."
+			],
+			"urls": [
+				"http://dx.doi.org/10.1109/JTEHM.2024.3430035"
+			],
+			"categories": [
+				"language-python",
+				"model-classification",
+				"methods-shap",
+				"methods-lime",
+				"visualization-shapsummary",
+				"visualization-limeexplanation"
+			],
+			"language-details": "Python",
+			"model-details": "Classification",
+			"methods-details": "SHAP, LIME",
+			"visualization-details": "SHAP Summary Plot, Lime Explanation Visualization"
+		}
+			
+	]
+}
