@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="HealthExplaiAI Vis Browser">
+	<meta name="author" content="Cassiano Souza @ DaVInt Lab">
+
+	<title>HealthExplainAI Vis Browser</title>
+
+	<link rel="shortcut icon" href="images/favicon.png">
+
+	<!-- Adicionado por Cassiano para adicionar icones sem precisar baixa-los-->
+	<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Optional Bootstrap theme (for fancy look) -->
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+	<!-- noUiSlider -->
+	<link href="css/jquery.nouislider.min.css" rel="stylesheet">
+
+	<!-- Custom styles used for this page -->
+	<link href="css/custom.css" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+	<!--<div id="topAlert" class="alert alert-info alert-dismissible hidden" role="alert">
+		  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		  Check out our new <a href="https://va-embeddings-browser.ivis.itn.liu.se/" target="_blank">VA+Embeddings Browser</a>!
+	</div>-->
+
+	<!-- Static navbar -->
+	<div class="navbar navbar-default navbar-static-top custom-navbar" role="navigation">
+		<div class="container-fluid custom-navbar-container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<div class="navbar-header-container">
+					<div class="navbar-header-top">
+						<span class="navbar-brand-title">HealthExplaiAI Vis Browser</span>
+					</div>
+					<div class="navbar-header-middle">
+						<b>Interactive Survey of Visual and Interactive Methods for Explaining AI in Healthcare (<a href="https://sol.sbc.org.br/index.php/webmedia/article/view/30313/30119" target="_blank" title="Investigating Users Attentional Focus in Computational Environments">Paper</a>)</b>
+					</div>
+					<div class="navbar-header-bottom">
+						Provided by <a href="https://www.inf.pucrs.br/davint/" class="navbar-link" target="_blank">DaVInt Lab</a>
+					</div>
+				</div>
+			</div>
+			<div class="navbar-collapse collapse custom-navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="#" data-toggle="modal" data-target="#aboutModal">About</a>
+					</li>
+					<li>
+						<a href="#" data-toggle="modal" data-target="#summaryTableModal">Summary</a>
+					</li>
+					<li>
+						<a href="#" data-toggle="modal" data-target="#addEntryModal">Add entry</a>
+					</li>
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Other surveys <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+
+							<li class="dropdown-header">iVis and ISOVIS Visual Surveys</li>
+							<li>
+								<a href="https://textvis.lnu.se" target="_blank">TextVis Browser</a>
+							</li>
+							<li>
+								<a href="https://sentimentvis.lnu.se" target="_blank">SentimentVis Browser</a>
+							</li>
+							<li>
+								<a href="https://biovis.lnu.se" target="_blank">BioVis Explorer</a>
+							</li>
+							<li>
+								<a href="https://trustmlvis.lnu.se" target="_blank">TrustMLVis Browser</a>
+							</li>
+
+
+							<li role="separator" class="divider"></li>
+							<li class="dropdown-header">Other Interactive Surveys</li>
+							<li>
+								<a href="http://vcg.informatik.uni-rostock.de/~ct/timeviz/timeviz.html" target="_blank">TimeVis	Browser</a>
+							</li>
+							<li>
+								<a href="http://treevis.net" target="_blank">TreeVis.net</a>
+							</li>
+							<li>
+								<a href="http://dynamicgraphs.fbeck.com/" target="_blank">Dynamic Graph Visualization</a>
+							</li>
+							<li>
+								<a href="http://financevis.net" target="_blank">The Finance Vis Browser</a>
+							</li>
+							<li>
+								<a href="http://hdc.cs.arizona.edu/people/kisaacs/STAR/" target="_blank">Performance Visualization</a>
+							</li>
+							<li>
+								<a href="http://dataphys.org/list/" target="_blank">Physical Visualization</a>
+							</li>
+							<li>
+								<a href="http://www.datavis.ca/milestones/" target="_blank">Data Visualization Milestones</a>
+							</li>
+							<li>
+								<a href="http://www.sci.utah.edu/~shusenl/highDimSurvey/website/" target="_blank">Visualizing	High-Dimensional Data</a>
+							</li>
+							<li>
+								<a href="http://groups-in-graphs.corinna-vehlow.com/" target="_blank">Visualizing Group Structures in	Graphs</a>
+							</li>
+							<li>
+								<a href="http://matrixreordering.dbvis.de/" target="_blank">Matrix Reordering Survey</a>
+							</li>
+							<li>
+								<a href="http://cartogram.cs.arizona.edu/survis-cartogram/" target="_blank">The State of the Art in	Cartograms</a>
+							</li>
+							<li>
+								<a href="http://sparklines-literature.fbeck.com/" target="_blank">Sparklines Literature</a>
+							</li>
+							<li>
+								<a href="http://104.196.253.120/pva_browser" target="_blank">Predictive Visual Analytics Browser</a>
+							</li>
+							<li>
+								<a href="http://sos.swansea.ac.uk/" target="_blank">Survey of Surveys (SoS) Literature Collection</a>
+							</li>
+							<li>
+								<a href="http://collectionvis.org/" target="_blank">Visualization of Cultural Heritage Collection	Data</a>
+							</li>
+							<li>
+								<a href="http://visbooks.swansea.ac.uk/" target="_blank">Survey of Information Visualization Books</a>
+							</li>
+							<li>
+								<a href="https://vdl.sci.utah.edu/mvnv/" target="_blank">Multivariate Network Visualization	Techniques</a>
+							</li>
+							<li>
+								<a href="https://aviz.fr/~bbach/spacetimecubes/" target="_blank">Space-Time Cube Vis</a>
+							</li>
+							<li>
+								<a href="https://multivis.net/" target="_blank">Multifaceted Data Visualization</a>
+							</li>
+							<li>
+								<a href="https://agrepository.github.io/" target="_blank">Accessible Graphics Repository</a>
+							</li>
+							<li>
+								<a href="https://hce-star.dbvis.de/" target="_blank">Human-Centered Evaluations of Human-Centered	Machine Learning</a>
+							</li>
+							<li>
+								<a href="https://geonetworks.github.io/" target="_blank">Geospatial Network Visualization</a>
+							</li>
+							<li>
+								<a href="https://provenance-survey.caleydo.org/" target="_blank">Analysis of User Interactions and	Visualization Provenance</a>
+							</li>
+							<li>
+								<a href="https://rethinkingvis.com/" target="_blank">ReThinking Visualization</a>
+							</li>
+							<li>
+								<a href="https://commercialtools.dbvis.de/" target="_blank">Commercial Visual Analytics Tools</a>
+							</li>
+							<li>
+								<a href="https://computergraphics.on.liu.se/image_synthesis_methods_for_visual_machine_learning/#" target="_blank">Image Synthesis Methods for Visual Machine Learning</a>
+							</li>
+							<li>
+								<a href="https://ehr.wangqiru.com/" target="_blank">EHR STAR Browser</a>
+							</li>
+							<li>
+									<a href="https://iasurvey.dbvis.de/" target="_blank">Immersive Analytics with Abstract 3D Visualizations</a>
+							</li>
+							<li>
+								<a href="https://www.cs.nott.ac.uk/~psxef1/index.html" target="_blank">SurVisLit: Visualization Literacy Literature Collection</a>
+							</li>
+							<li>
+								<a href="https://connectomics-vis-survey.github.io/" target="_blank">Connectomics Vis Survey</a>
+							</li>
+							<li>
+								<a href="https://lauragarrison87.github.io/star.web/" target="_blank">Visualization for Physiology: A Multiscale Overview</a>
+							</li>
+							<li>
+								<a href="https://sportsdataviz.github.io/" target="_blank">Sports Data Visualization</a>
+							</li>
+							<li>
+								<a href="https://communication-analysis.dbvis.de/" target="_blank">Communication Analysis Approaches</a>
+							</li>
+							<li>
+								<a href="https://urban-va-survey.github.io/" target="_blank">Urban Visual Analytics</a>
+							</li>
+							<li>
+								<a href="https://amitjenaiitbm.github.io/uncertaintyVizBrowser/" target="_blank">UncertaintyVis Browser</a>
+							</li>
+							<li>
+								<a href="https://ml4vis.github.io/" target="_blank">ML4Vis: Applying Machine Learning Advances to Data Visualization</a>
+							</li>
+							<li>
+								<a href="https://ai4vis.github.io/" target="_blank">AI4VIS: Artificial Intelligence Approaches for Data Visualization</a>
+							</li>
+							<li>
+								<a href="https://vis-surveys.list.lu/scented-widgets" target="_blank">Scented Widgets Browser</a>
+							</li>
+							<li>
+								<a href="http://plick.cs.niu.edu/projects/STAR_Companion_Website/index.html" target="_blank">Dynamic Multivariate Network Visualization Techniques</a>
+							</li>
+							<li>
+								<a href="https://visualsurvey.net/pva" target="_blank">The State of the Art in Progressive Visualization</a>
+							</li>
+							<li>
+								<a href="https://sites.cvast.tuwien.ac.at/visual-parameter-space-exploration-survey/" target="_blank">Visual Parameter Space Exploration in Time and Space</a>
+							</li>
+							<li>
+								<a href="https://aware-diag-sapienza.github.io/VA4XDL/survis/" target="_blank">Visual Analytics for eXplainable Deep Learning</a>
+							</li>
+							<li>
+								<a href="https://regvis.net/ " target="_blank">Regvis - A Visual Bibliography of Regulatory Visualization</a>
+							</li>
+
+							<li role="separator" class="divider"></li>
+							<li class="dropdown-header">Non-Interactive Surveys</li>
+							<li>
+								<a href="https://sites.google.com/site/drminchen/cgf-info/cgf-stars" target="_blank">Min Chen's List of	Survey Articles</a>
+							</li>
+							<li>
+								<a href="https://infovis-wiki.net/wiki/Interactive_Online_Surveys" target="_blank">List of Interactive Online Surveys at InfoVis Wiki</a>
+							</li>
+							<li>
+								<a href="https://www.cvast.tuwien.ac.at/SetViz" target="_blank">Sets and Set-typed Data	Visualization</a>
+							</li>
+							<li>
+								<a href="https://docs.google.com/spreadsheets/d/1yJkf-Nt0kel8hojLZJQiJeWR5Qc-HHqvKvpRDVrfc9g/edit#gid=0" target="_blank">Visualization and Interactive Surfaces</a>
+							</li>
+							<li>
+								<a href="https://sites.google.com/view/visres" target="_blank">Visualization Resources</a>
+							</li>
+							<li>
+								<a href="https://www.sci.utah.edu/~kpotter/Library/Catalogs/uncertaintyVis/" target="_blank">Uncertainty Visualization and Data References</a>
+							</li>
+
+
+							<li role="separator" class="divider"></li>
+							<li class="dropdown-header">Other Related Tools and Datasets</li>
+							<li>
+								<a href="http://keyvis.org" target="_blank">KeyVis</a>
+							</li>
+							<li>
+								<a href="http://keshif.me/" target="_blank">Keshif</a>
+							</li>
+							<li>
+								<a href="http://vispubdata.org/" target="_blank">Visualization Publication Data Collection</a>
+							</li>
+							<li>
+								<a href="https://visimagenavigator.github.io/" target="_blank">VISImageNavigator</a>
+							</li>
+							<li>
+								<a href="https://pubvis.herokuapp.com/" target="_blank">PubMed Publication Visualization</a>
+								<!-- source code: https://github.com/cod3licious/pubvis -->
+							</li>
+							<li>
+								<a href="https://arxvis.herokuapp.com/" target="_blank">arXiV ML Publication Visualization</a>
+								<!-- source code: https://github.com/cod3licious/pubvis -->
+							</li>
+							<li>
+								<a href="https://visualsurvey.net/" target="_blank">VisualSurvey.net</a>
+							</li>
+							
+
+
+							<li role="separator" class="divider"></li>
+							<li class="dropdown-header">Discontinued Surveys</li>
+							<li>
+								<a href="http://www.aviz.fr/~bbach/timelines/" target="_blank"><s>Timeline Visualization Survey</s></a>
+							</li>
+							<li>
+								<a href="https://www.cos.ufrj.br/~schots/survis_reuse/" target="_blank"><s>Visualization of Software Reuse</s></a>
+							</li>
+							<li>
+								<a href="http://www.paperviz.org/" target="_blank"><s>PaperViz.org</s></a>
+							</li>
+							<li>
+								<a href="http://visgroup.thss.tsinghua.edu.cn/textvis" target="_blank"><s>Bridging Text Visualization	and Mining</s></a>
+							</li>
+
+						</ul>  <!-- end the list of surveys-->
+					</li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div>
+
+
+	<!-- Main content wrapper -->
+	<table class="content-wrapper">
+		<tr class="content-row">
+			<td class="sidebar-fixed">
+				<div class="sidebar-container">
+					<div id="filtersPanel" class="panel panel-default small-bottom-margin">
+						<div class="panel-body">
+							<h5 class="entries-count-label panel-label">Survey entries displayed:</h5>
+							<div id="displayedEntriesCount"></div>
+						</div>
+
+						<ul class="list-group">
+							<li class="list-group-item">
+								<h5 class="inline-block panel-label">Search:</h5>
+								<div class="btn-group btn-group-justified">
+									<input id="searchField" type="search" class="form-control">
+									<span class="glyphicon glyphicon-remove search-clear"></span>
+								</div>
+							</li>
+						</ul>
+
+						<ul class="list-group">
+							<li class="list-group-item">
+								<h5 class="inline-block panel-label">Time filter:</h5>
+								<div class="time-filter-label-container">
+									<span id="timeFilterMin" class="time-filter-min"></span>
+									<span id="timeFilterMax" class="time-filter-max"></span>
+								</div>
+								<div class="time-filter-container">
+									<div id="timeFilter"></div>
+								</div>
+								<div id="timeChart" class="time-chart">
+								</div>
+							</li>
+						</ul>
+
+						<ul id="categoriesList" class="list-group">
+						</ul>
+
+					</div>
+				</div>
+			</td>
+
+			<td>
+				<div class="container-fluid">
+					<div class="row-container">
+
+						<div class="row">
+							<div id="entriesContainer" class="col-md-12">
+								<p class="text-muted">Here comes the content</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+
+	<div class="container-fluid">
+		<div class="row-container">
+			<div class="footer">
+				<hr>
+				<p class="text-muted credit no-top-margin no-bottom-margin">
+					&copy;DaVInt 2025. All rights for the publication images belong to their respective
+					owners.
+				</p>
+				<p class="text-muted credit no-top-margin no-bottom-margin">
+					Version 1.0.0. Last updated: Mai 22, 2025
+				</p>
+				<p class="text-muted credit no-top-margin no-bottom-margin">
+		     			This website is using cookies (for dismissible dialogs only).
+		   	</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Entry details modal -->
+	<div id="entryDetailsModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="entryDetailsTitle"
+		aria-hidden="true" data-backdrop="static">
+		<div class="modal-dialog modal-wide">
+			<div class="modal-content">
+				<div class="modal-header" hidden="true"></div>
+				<div class="modal-body">
+					<div class="media">
+						<span class="pull-left">
+							<img id="entryDetailsThumbnail" class="media-object thumbnail200">
+						</span>
+						<div class="media-body">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 id="entryDetailsTitle" class="media-heading entry-details-field entry-details-title"></h4>
+							<h5 id="entryDetailsAuthors" class="entry-details-field"></h5>
+							<div id="entryDetailsCategories" class="entry-details-field"></div>
+							<div id="entryDetailsFreeTextCategories" class="entry-details-field"></div>
+							<div class="vertical-delimiter"></div>
+							<h6 id="entryDetailsReferences" class="entry-details-field"></h6>
+							<h6 id="entryDetailsUrls" class="entry-details-field"></h6>
+							<h6 id="entryDetailsBibtex" class="entry-details-field"></h6>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer" hidden="true"></div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<!-- About modal -->
+	<div id="aboutModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="aboutTitle" aria-hidden="true"
+		data-backdrop="static">
+		<div class="modal-dialog modal-medium">
+			<div class="modal-content">
+				<div class="modal-header" hidden="true"></div>
+				<div class="modal-body">
+					<div class="media">
+						<span class="pull-left">
+							<a href="https://portal.pucrs.br" class="about-link" target="_blank" title="PUCRS">
+								<img class="media-object" src="images/pucrs-logo-3.png" width="82px"
+									alt="PUCRS logo">
+								<a href="https://www.inf.pucrs.br/davint/" class="about-link" target="_blank" title="DaVInt lab">
+										<img class="media-object" src="images/DaVInt-Logo-4.png" width="82px"
+											alt="DaVInt lab logo">
+							</a>
+						</span>
+						<div class="media-body">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h3 id="aboutTitle">AttentionVis Browser</h3>
+
+							<div class="small-bottom-margin">Research conducted by Cassiano S. Souza<sup>1, 2</sup>, Isabel H. Manssour
+								<sup>1</sup>, Milene S. Silveira<sup>1</sup>, <!--and Andreas Kerren<sup>1, 2</sup>--></div>
+							<div>
+								<sup>1</sup> <a href="https://www.inf.pucrs.br/davint/" class="about-link" target="_blank" title="DaVInt lab">
+									DaVInt lab, PUCRS University, Porto Alegre, Brazil
+								</a>
+							</div>
+							<div>
+								<sup>2</sup> <a href="http://www.ifsul.edu.br" class="about-link" target="_blank" title="IFSUL">
+									IFSUL, Federal Institute of Education, Sapiranga, Brazil
+								</a>
+							</div>
+							<!--<div>
+								<sup>2</sup> <a href="https://cs.lnu.se/isovis/" class="about-link" target="_blank"
+									title="ISOVIS group">
+									ISOVIS group, Linnaeus University, Växjö, Sweden
+								</a>
+							</div>-->
+
+							<!--<div><b>To cite this resource,</b> please refer to the <a href="https://doi.org/" target="_blank" title="zzzz">survey article</a>.
+   							</div>-->
+						</div>
+					</div>
+					<div id="aboutModalStatsHeaderContainer">
+						<div id="aboutModalVersionContainer"></div>
+						<div id="aboutModalTotalCountContainer"></div>
+					</div>
+					<div id="statsContainer"></div>
+					<hr />
+					<div>
+						DaVInt Lab - Data Visualization and Interaction Lab
+					</div>
+				</div>
+				<div class="modal-footer" hidden="true"></div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<!-- Summary table modal -->
+	<div id="summaryTableModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="summaryTableTitle"
+		aria-hidden="true" data-backdrop="static">
+		<div class="modal-dialog modal-max">
+			<div class="modal-content">
+				<div class="modal-header" hidden="true"></div>
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h3>Survey summary</h3>
+					<div id="summaryTableModalVersionContainer" class="small-bottom-margin"></div>
+					<div id="summaryTableContainer"></div>
+				</div>
+				<div class="modal-footer" hidden="true"></div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<!-- Add entry modal -->
+	<div id="addEntryModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="addEntryTitle"
+		aria-hidden="true" data-backdrop="static">
+		<div class="modal-dialog modal-wide">
+			<div class="modal-content">
+				<div class="modal-header" hidden="true"></div>
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h3 id="addEntryTitle">Add entry</h3>
+					If you are an author of a <a href="http://definitions.uslegal.com/p/peer-review-education/"
+						target="_blank">peer-reviewed</a> <a href="http://definitions.uslegal.com/a/academic-publishing/"
+						target="_blank">published work</a> related to the use of embedding approaches in visual analytics
+					that presents a contribution missing in our browser, please feel free to
+					submit an entry. If you wish to do so, please use the form below to generate a JSON entry, save it as a file
+					and send it to
+					<a href="mailto:cassiano.souza@edu.pucrs.br?subject=Survey+AttentionVis Browser entry">Cassiano S. Souza</a> together
+					with
+					<ul>
+						<li>a 200x200 px PNG thumbnail of your visualization,</li>
+						<li>a 100x100 px PNG thumbnail, and</li>
+						<li>a BibTeX reference file.</li>
+					</ul>
+					The publication URLs provided in the form should point to <a href="https://doi.org/" target="_blank">DOI</a>, if possible. Also,
+					please acknowledge the fact
+					that by submitting an entry, you provide us with permissions to use your image on this resource and in related
+					publications.
+					<p class="large-top-margin">
+						<b>Note:</b> if you have trouble seeing the resulting entry after clicking the "Process" button, please
+						check your AdBlock settings (and add this website to the whitelist).
+					</p>
+					<div class="vertical-delimiter"></div>
+					<form class="form-horizontal" role="form">
+						<div class="form-group">
+							<label for="inputEntryTitle" class="col-sm-2 control-label">Short title</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control form-mandatory" id="inputEntryTitle"
+									placeholder="e.g., NovelAttentionAnalysisVis">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryYear" class="col-sm-2 control-label">Year</label>
+							<div class="col-sm-10">
+								<input type="number" class="form-control form-mandatory" id="inputEntryYear" placeholder="e.g., 2023"
+									min="1900" max="2050" value="2023">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryAuthors" class="col-sm-2 control-label">Authors</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control form-mandatory" id="inputEntryAuthors"
+									placeholder="e.g., John Doe and Jane Doe">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryCategories" class="col-sm-2 control-label">Categories</label>
+							<div id="inputEntryCategories" class="col-sm-10">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryDomainDetails" class="col-sm-2 control-label">Application Domain/Task Details (optional)</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="inputEntryDomainDetails"
+									placeholder="e.g., Online classes (MOOC)">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryUserDetails" class="col-sm-2 control-label">Research Topic Details (optional)</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="inputEntryUserDetails"
+									placeholder="e.g., Predicting Mind-Wandering">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryDataDetails" class="col-sm-2 control-label">Machine Learning Method Details (optional)</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="inputEntryDataDetails"
+									placeholder="e.g., Comparison between CNN and SVM">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryTaskDetails" class="col-sm-2 control-label">Input Data Details (optional)</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="inputEntryTaskDetails"
+									placeholder="e.g., Webcam, microphone and system logs">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryComputationDetails" class="col-sm-2 control-label">Webcam Features Details (optional)</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="inputEntryComputationDetails"
+									placeholder="e.g., Facial expressions and eye-movements">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryVisualizationDetails" class="col-sm-2 control-label">Purposes of Visualization (optional)</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="inputEntryVisualizationDetails"
+									placeholder="e.g., Evaluation and comparison of ML classifiers">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryInteractionDetails" class="col-sm-2 control-label">Visualization Details (optional)</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="inputEntryInteractionDetails"
+									placeholder="e.g., Pie/donut, line and confusion matrix">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryReferences" class="col-sm-2 control-label">Reference(s)</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control form-mandatory" id="inputEntryReferences"
+									placeholder="e.g., John Doe and Jane Doe. Great Long Title. Proceedings of a famous conference, pp. 100–105, 2023.">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryUrls" class="col-sm-2 control-label">URL(s)</label>
+							<div class="col-sm-10">
+								<input type="url" class="form-control" id="inputEntryUrls" placeholder="e.g., https://doi.org/0">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<div class="col-sm-12">
+								<button id="resetNewEntry" type="reset" class="btn btn-default">Reset</button>
+								<button id="processNewEntry" type="button" class="btn btn-default pull-right">Process</button>
+							</div>
+						</div>
+					</form>
+
+				</div>
+				<div class="modal-footer" hidden="true"></div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.cookie.js"></script>
+
+	<!-- Include all compiled plugins -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- noUiSlider -->
+	<script src="js/jquery.nouislider.min.js"></script>
+
+	<!-- D3 (used for statistics diagram) -->
+	<script src="js/d3.v3.min.js"></script>
+	<!-- Colorbrewer colors (used for statistics diagram) -->
+	<script src="js/colorbrewer.js"></script>
+
+	<!-- Custom JS code -->
+	<script src="js/va-embeddings-browser.js"></script>
+</body>
+
+</html>
