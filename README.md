@@ -1,6 +1,6 @@
 # VA+Embeddings Browser
 
-Deployed at https://va-embeddings-browser.ivis.itn.liu.se/ 
+Deployed at https://thalesvoltz.github.io/HealthExplainAIVis_Browser/
 
 
 
